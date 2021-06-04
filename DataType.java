@@ -1,5 +1,4 @@
 import javax.swing.JOptionPane;
-
 public class DataType{
 	public static void main(String[]args){
 	String namaDepan = "SANDY THREE";
@@ -21,6 +20,6 @@ public class DataType{
 	System.out.println("Lulus : "+lulus);
 	System.out.println("Nilai Abjad : "+nilaiAbjad);
 	
-	JOptionpane.showMessageDialog(null, "Hai, "+namaDepan+namaTengah+namaBelakang);
+	JOptionPane.showMessageDialog(null, "Hai, "+ namaDepan + namaTengah + namaBelakang);
 	}	
 }
