@@ -11,12 +11,12 @@ public class DataType{
 	char nilaiAbjad = 'A';
  
 	System.out.println("Nama Depan : "+namaDepan);
-	System.out.println("Nama Depan : "+namaTengah);
-	System.out.println("Nama Depan : "+namaBelakang);
-	System.out.println("Nama Depan : "+usia);
-	System.out.println("Nama Depan : "+targetTahunKuliah);
-	System.out.println("Nama Depan : "+ipk);
-	System.out.println("Nama Depan : "+lulus);
-	System.out.println("Nama Depan : "+nilaiAbjad);
+	System.out.println("Nama Tengah : "+namaTengah);
+	System.out.println("Nama Belakang : "+namaBelakang);
+	System.out.println("Usia : "+usia);
+	System.out.println("Target Tahun Kuliah : "+targetTahunKuliah);
+	System.out.println("IPK : "+ipk);
+	System.out.println("Lulus : "+lulus);
+	System.out.println("Nilai Abjad : "+nilaiAbjad);
 	}	
 }
