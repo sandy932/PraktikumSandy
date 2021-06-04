@@ -39,6 +39,7 @@ public class DataType{
 	System.out.println("Lulus : "+lulus);
 	System.out.println("Nilai Abjad : "+nilaiAbjad);
 	
+	namaBelakang = JOptionPane.showInputDialog("Nama Belakang : ");
 	JOptionPane.showMessageDialog(null, "Hai, "+ namaDepan + namaTengah + namaBelakang);
 	}	
 }
