@@ -9,6 +9,7 @@ public class MahasiswaBeraksi {
 
         String polaTanggal = "dd-MM-yyyy";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(polaTanggal);
+
         Mahasiswa mahasiswa = new Mahasiswa();
         mahasiswa.npm = "19630385";
         mahasiswa.nama = "SANDY THREE MUAZ PUTRA";
@@ -18,18 +19,8 @@ public class MahasiswaBeraksi {
         mahasiswa.menyapa();
         System.out.println("Usiaku : " + mahasiswa.hitungUsia() + " tahun");
 
-        Mahasiswa mahasiswa2 = new Mahasiswa();
-        mahasiswa2.npm = "19636598";
-        mahasiswa2.nama = "SANDY PUTRA";
-        mahasiswa2.tanggalLahir = simpleDateFormat.parse("24-05-1999");
-
-        System.out.println("Nama \t\t\t : " + mahasiswa.nama);
-        System.out.println("NPM \t\t\t : " + mahasiswa.npm);
-        System.out.println("Taggal Lahir \t : "+ simpleDateFormat.format(mahasiswa.tanggalLahir ));
-
-        System.out.println("Nama \t\t\t : " + mahasiswa2.nama);
-        System.out.println("NPM \t\t\t : " + mahasiswa2.npm);
-        System.out.println("Taggal Lahir \t : "+ simpleDateFormat.format(mahasiswa2.tanggalLahir ));
+        Mahasiswa mahasiswa2 = new Mahasiswa("19636598", "SANDY PUTRA", "24-05-1999" );
+        mahasiswa2.tampilkanAtribut();
 
 
     }
