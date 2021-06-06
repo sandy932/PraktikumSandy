@@ -8,7 +8,11 @@ public class Main {
         double ipk = 3.5;
         boolean lulus = true;
         char nilaiAbjad = 'A';
+        char[] uniskaChar = {'U','N','I','S','K','A'};
 
+        String uniskaString = new String(uniskaChar);
+
+        System.out.println(uniskaString);
         System.out.println(namaDepan + namaTengah + namaBelakang);
     }
 }
