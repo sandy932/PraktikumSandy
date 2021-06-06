@@ -12,7 +12,31 @@ public class Mahasiswa {
     final String POLA_TANGGAL = "dd-MM-yyyy";
     final SimpleDateFormat SDF = new SimpleDateFormat(POLA_TANGGAL);
 
-    void tampilkanAtribut(){
+    public String getNpm() {
+        return npm;
+    }
+
+    public void setNpm(String npm) {
+        this.npm = npm;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    public Date getTanggalLahir() {
+        return tanggalLahir;
+    }
+
+    public void setTanggalLahir(Date tanggalLahir) {
+        this.tanggalLahir = tanggalLahir;
+    }
+
+    public void tampilkanAtribute() {
         System.out.println("Nama \t\t\t : " + this.nama);
         System.out.println("NPM \t\t\t : " + this.npm);
         System.out.println("Tanggal Lahir \t : " + SDF.format(this.tanggalLahir));
@@ -28,3 +52,4 @@ public class Mahasiswa {
         }
     }
 }
+
